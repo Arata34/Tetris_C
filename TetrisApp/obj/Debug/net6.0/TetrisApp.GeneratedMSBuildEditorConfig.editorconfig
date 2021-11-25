@@ -23,12 +23,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Credits.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlZGl0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Game.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Option.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3B0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Shared/SurveyPrompt.razor]
@@ -39,9 +51,9 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Accueil.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjdWVpbC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-mo3888fdqv
+[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-yaj7biw4b2
 
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
