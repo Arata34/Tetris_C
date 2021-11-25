@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\filou\\.nuget\\packages\\": {}
+    "C:\\Users\\Antoine\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
+      "projectUniqueName": "C:\\Users\\Antoine\\Documents\\C#\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
       "projectName": "TetrisApp",
-      "projectPath": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
-      "packagesPath": "C:\\Users\\filou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\obj\\",
+      "projectPath": "C:\\Users\\Antoine\\Documents\\C#\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
+      "packagesPath": "C:\\Users\\Antoine\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antoine\\Documents\\C#\\Tetris_C\\TetrisApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\filou\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Antoine\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
