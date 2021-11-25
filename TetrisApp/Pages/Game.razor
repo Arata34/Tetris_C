@@ -6,12 +6,26 @@
     public class GameSys
     {
         public int grid {get;set;}//A changer
+
         public int score {get;set;}
+        
         public int speed {get;set;}
+        
         public TimeSpan time {get;set;}
+
+        public GameSys(){}
+
+        public GameSys(int grid, int score, int speed, TimeSpan time = 0){
+            this.grid = grid;
+            this.score = score;
+            this.speed = speed;
+            this.time = time;
+        }
+        
         public void StartGame(){
 
         }
+        
         public void SetScore(){
             
         }
