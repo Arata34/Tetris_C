@@ -5,7 +5,7 @@
 @code {
     public class GameSys
     {
-        public int grid {get;set;}//A changer
+        public Grid grid;//A changer
 
         public int score {get;set;}
         
@@ -15,7 +15,7 @@
 
         public GameSys(){}
 
-        public GameSys(int grid, int score, int speed, TimeSpan time){
+        public GameSys(Grid grid, int score, int speed, TimeSpan time){
             this.grid = grid;
             this.score = score;
             this.speed = speed;
@@ -23,7 +23,8 @@
         }
         
         public static void StartGame(){
-            GameSys NewGame = new GameSys(0, 0, (0,0,0));
+            Grid grid = new Grid();
+            GameSys NewGame = new GameSys(grid, 0, (0,0,0));
         }
         
         public void SetScore(int multiplicateur){
