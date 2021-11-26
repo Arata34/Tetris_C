@@ -15,19 +15,35 @@
 
         public GameSys(){}
 
-        public GameSys(int grid, int score, int speed, TimeSpan time = 0){
+        public GameSys(int grid, int score, int speed, TimeSpan time){
             this.grid = grid;
             this.score = score;
             this.speed = speed;
             this.time = time;
         }
         
-        public void StartGame(){
-
+        public static void StartGame(){
+            GameSys NewGame = new GameSys(0, 0, 1);
         }
         
-        public void SetScore(){
-            
+        public void SetScore(int multiplicateur){
+            switch (multiplicateur){
+                case 1:   //1 ligne clear
+                    this.score += 150;
+                    break;
+                case 2:   //2 ligne clear
+                    this.score += 400;
+                    break;
+                case 3:   //3 ligne clear
+                    this.score += 600;
+                    break;
+                case 4:   //tetris
+                    this.score += 1000;
+                    break;
+                case 5:   //ajout piece
+                    this.score += 15;
+                    break;
+            }
         }
     }
 }
