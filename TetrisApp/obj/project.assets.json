@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\filou\\.nuget\\packages\\": {}
+    "/Users/oliviamoreau/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
+      "projectUniqueName": "/Users/oliviamoreau/YNOV2/Tetris_C/TetrisApp/TetrisApp.csproj",
       "projectName": "TetrisApp",
-      "projectPath": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\TetrisApp.csproj",
-      "packagesPath": "C:\\Users\\filou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\obj\\",
+      "projectPath": "/Users/oliviamoreau/YNOV2/Tetris_C/TetrisApp/TetrisApp.csproj",
+      "packagesPath": "/Users/oliviamoreau/.nuget/packages/",
+      "outputPath": "/Users/oliviamoreau/YNOV2/Tetris_C/TetrisApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\filou\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/oliviamoreau/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
