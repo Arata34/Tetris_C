@@ -45,35 +45,35 @@
         }
       },
       {
-        "HashCode": 1718017398,
+        "HashCode": 1803611869,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Index",
+        "Name": "TetrisApp.Pages.Credits",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Credits"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Index"
+          "Common.TypeName": "TetrisApp.Pages.Credits"
         }
       },
       {
-        "HashCode": -1019244270,
+        "HashCode": 2127125136,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Index",
+        "Name": "TetrisApp.Pages.Credits",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TetrisApp.Pages.Index"
+            "TagName": "TetrisApp.Pages.Credits"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Index",
+          "Common.TypeName": "TetrisApp.Pages.Credits",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,154 +144,35 @@
         }
       },
       {
-        "HashCode": 1129490825,
+        "HashCode": -6729041,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Counter",
+        "Name": "TetrisApp.Shared.NavMenu",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Counter"
+          "Common.TypeName": "TetrisApp.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 2081672603,
+        "HashCode": -694809254,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Counter",
+        "Name": "TetrisApp.Shared.NavMenu",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TetrisApp.Pages.Counter"
+            "TagName": "TetrisApp.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1803611869,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Credits",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Credits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Credits"
-        }
-      },
-      {
-        "HashCode": 2127125136,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Credits",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TetrisApp.Pages.Credits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Credits",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1849621154,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.FetchData",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 67082627,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.FetchData",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TetrisApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1605785229,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Shared.SurveyPrompt",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 944942530,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Shared.SurveyPrompt",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TetrisApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Shared.SurveyPrompt",
+          "Common.TypeName": "TetrisApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -392,35 +273,55 @@
         }
       },
       {
-        "HashCode": -6729041,
+        "HashCode": -1605785229,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Shared.NavMenu",
+        "Name": "TetrisApp.Shared.SurveyPrompt",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Shared.NavMenu"
+          "Common.TypeName": "TetrisApp.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -694809254,
+        "HashCode": 944942530,
         "Kind": "Components.Component",
-        "Name": "TetrisApp.Shared.NavMenu",
+        "Name": "TetrisApp.Shared.SurveyPrompt",
         "AssemblyName": "TetrisApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TetrisApp.Shared.NavMenu"
+            "TagName": "TetrisApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Shared.NavMenu",
+          "Common.TypeName": "TetrisApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16759,11 +16660,6 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "c:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
@@ -16807,16 +16703,6 @@
       "FilePath": "c:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\filou\\Documents\\GitHub\\Tetris_C\\TetrisApp\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"
