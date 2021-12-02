@@ -1,11 +1,18 @@
 /* _content/TetrisApp/Pages/Game.razor.rz.scp.css */
-.cell[b-jofu3lqsux]{
+.cells[b-jofu3lqsux]{
     border-style: solid;
+    text-emphasis-color: rgb(40, 154, 199);
     background-color: black;
     border-color: rgb(36, 221, 221);
     border-width: 0.005px;
     width: 30px;
     height: 30px;
+}
+
+#cell[b-jofu3lqsux] {
+    color: rgb(255, 0, 0);
+    flex: content;
+    align-items: center;
 }
 #Titre[b-jofu3lqsux]{
     text-align: center;

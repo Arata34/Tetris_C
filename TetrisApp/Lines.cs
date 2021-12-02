@@ -2,9 +2,11 @@ public class Lines{
     public int[] cells = {};
 
     public Lines(int Lenght){
-        for(int i = Lenght; i > 0; i--){
-            this.cells.Append(0);
+        int[] temp = new int[Lenght];
+        for(int i = 0; i < Lenght; i++){
+            temp.Append(0);
         }
+        cells = temp;
     }
 
     public bool isFull(){

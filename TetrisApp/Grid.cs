@@ -6,7 +6,15 @@ public class Grid{
 
     public Dictionary<string, Lines> DicLines = new Dictionary<string, Lines>();
 
-    public Grid(){}
+    public Grid(){
+        this.width = 10;
+        this.height = 25;
+        for(int i = this.height; i > 0; i--){
+            string lineName =  "ligne" + i.ToString();
+            DicLines.Add(lineName, new Lines(this.width));
+            this.lignes.Append(DicLines[lineName]);
+        }
+    }
 
     public Grid(int widht, int height){
         this.width = widht;
