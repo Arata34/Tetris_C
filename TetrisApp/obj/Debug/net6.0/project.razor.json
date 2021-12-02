@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1144527174,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Game",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Game"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Game"
-        }
-      },
-      {
-        "HashCode": 1246937038,
-        "Kind": "Components.Component",
-        "Name": "TetrisApp.Pages.Game",
-        "AssemblyName": "TetrisApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TetrisApp.Pages.Game"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TetrisApp.Pages.Game",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1803611869,
         "Kind": "Components.Component",
         "Name": "TetrisApp.Pages.Credits",
@@ -140,6 +107,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TetrisApp.Pages.Menu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1144527174,
+        "Kind": "Components.Component",
+        "Name": "TetrisApp.Pages.Game",
+        "AssemblyName": "TetrisApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TetrisApp.Pages.Game"
+        }
+      },
+      {
+        "HashCode": 1246937038,
+        "Kind": "Components.Component",
+        "Name": "TetrisApp.Pages.Game",
+        "AssemblyName": "TetrisApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TetrisApp.Pages.Game"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TetrisApp.Pages.Game",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

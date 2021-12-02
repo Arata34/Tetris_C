@@ -1,3 +1,24 @@
+/* _content/TetrisApp/Pages/Game.razor.rz.scp.css */
+.cell[b-jofu3lqsux]{
+    border-style: solid;
+    background-color: black;
+    border-color: rgb(36, 221, 221);
+    border-width: 0.005px;
+    width: 30px;
+    height: 30px;
+}
+#Titre[b-jofu3lqsux]{
+    text-align: center;
+    color: rgb(98, 0, 255);
+    font-size: 50px;
+}
+
+.playGround[b-jofu3lqsux]{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
 /* _content/TetrisApp/Pages/Menu.razor.rz.scp.css */
 #Titre_Menu[b-yaj7biw4b2] {
     font-size: 100px;

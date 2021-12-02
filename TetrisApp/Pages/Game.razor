@@ -2,4 +2,27 @@
 
 <PageTitle>Game</PageTitle>
 
-<p>There is no game</p>
+<p id="Titre">There is no Tetris</p>
+<div class="playGround">
+    <table id="Grid">
+        @for(int i = 0; i <game.grid.height - 5;i++) {
+            <tr>
+                @for (int j = 0; j < game.grid.width; j++){
+                    <td class="cell"></td>
+                }
+            </tr>
+        }
+    </table>
+    <br>
+    <div>
+        <button id="buttons">left</button>
+        <button id="buttons">rotate</button>
+        <button id="buttons">right</button>
+    </div>
+</div>
+
+
+
+@code {
+    GameSys game = new GameSys();
+}

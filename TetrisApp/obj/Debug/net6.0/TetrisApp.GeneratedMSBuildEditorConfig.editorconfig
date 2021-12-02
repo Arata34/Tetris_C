@@ -23,10 +23,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlZGl0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Game.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Option.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3B0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Game.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jofu3lqsux
 
 [C:/Users/filou/Documents/GitHub/Tetris_C/TetrisApp/Pages/Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5yYXpvcg==

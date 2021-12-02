@@ -1,0 +1,28 @@
+public class Lines{
+    public int[] cells = {};
+
+    public Lines(int Lenght){
+        for(int i = Lenght; i > 0; i--){
+            this.cells.Append(0);
+        }
+    }
+
+    public bool isFull(){
+        for(int i = 0; i < this.cells.Length; i++){
+            if(this.cells[i] == 0 ){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void clearLine(){
+        for(int i = 0; i < this.cells.Length; i++){
+            this.cells[i] = 0;
+        }
+    }
+
+    public int GetLenght(){
+        return cells.Length;
+    }
+}
