@@ -10,9 +10,8 @@
 
 #cell {
     color: rgb(255, 0, 0);
-    flex: content;
-    align-items: center;
 }
+
 #Titre{
     text-align: center;
     color: rgb(98, 0, 255);
