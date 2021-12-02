@@ -1,11 +1,23 @@
 @page "/game"
 
 <PageTitle>Game</PageTitle>
+<button @onclick="test">Boutton de test</button>
+<div id="Grille">
+    @for (int i = 0; i < game.grid.width -1; i++)
+    {
+        @for (int j = 0; j < game.grid.height -6; j++)
+        {
+            <div id = i class="case">@game.grid.DicLines["ligne"+(j+1).ToString()].cells[i]</div>          
+        }
+    }
+</div>
+
+
 
 @code {
     public class GameSys
     {
-        public Grid grid;//A changer
+        public Grid grid;
 
         public int score {get;set;}
         
@@ -13,7 +25,9 @@
         
         public TimeSpan time {get;set;}
 
-        public GameSys(){}
+        public GameSys(){
+            this.grid = new Grid();
+        }
 
         public GameSys(Grid grid, int score, int speed, TimeSpan time){
             this.grid = grid;
@@ -22,9 +36,11 @@
             this.time = time;
         }
         
-        public static void StartGame(){
+        public static GameSys StartGame(){
             Grid grid = new Grid();
-            GameSys NewGame = new GameSys(grid, 0, (0,0,0));
+            TimeSpan time = new TimeSpan(0,0,0);
+            GameSys NewGame;
+            return NewGame = new GameSys(grid,0, 0, time);
         }
         
         public void SetScore(int multiplicateur){
@@ -46,5 +62,10 @@
                     break;
             }
         }
+    }
+    GameSys game = GameSys.StartGame();
+    public void test(){
+        Console.WriteLine("test:");
+        Console.WriteLine(String.Join(",",game.grid.DicLines["ligne1"].cells));   
     }
 }
